@@ -34,7 +34,7 @@ First the bot selects a subset of candidate lines from the data set. This can be
 - Crawler.ipynb - Notebook used to crawl the lyrics.
 - Extract Phonemes.ipynb - Notebook used to expand the lyrics data set with phonetic features.
 - Feature Training.ipynb - Notebook used to train the RankSVM classifier (Because training/testing took a long time, I was only able to train the classifier on a small subset of the data and was not able to get recall values at different intervals for the test set).
-- lyrics_sorted.csv - Lyrics dataset, which is sorted on the reverse of the concatenated string of phonetic vowel symbols.
+- lyrics_sorted.csv - Lyrics dataset, which is sorted on the reverse of the concatenated string of phonetic vowel symbols. Can be downloaded from <https://drive.google.com/open?id=0B8QUN2VothC_ZDVGTXo5TEZ3YTQ>
 - RapBot.py, LineRanking.py, PhoneticFeatures.py and SemanticFeatures.py - Source files of the bot
 
 ## Example Lines
